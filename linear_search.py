@@ -7,4 +7,8 @@ def linear_search(searchTerm, arr):
 def linear_search_global(searchTerm, arr):
     output = []
     i = 0
-    for 
+    for element in arr:
+        if element == searchTerm:
+            output.append(i)
+        i += 1
+    return output
