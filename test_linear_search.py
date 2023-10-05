@@ -8,7 +8,7 @@ def test_linear_search_does_not_exist():
     assert linear_search(4, [1,2,3]) == None
 
 def test_linear_search_each_int_exists_but_not_whole():
-    linear_search(13, [1,2,3]) == None
+    assert linear_search(13, [1,2,3]) == None
 
 
 # tests for linear_search_global
